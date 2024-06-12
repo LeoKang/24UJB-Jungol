@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Main {
 	public static long f(long p) {
 		if (p == 1) {
-			System.out.println("1! = 1");
+//			System.out.println("1! = 1");
 			return 1;
 		} else {
-			System.out.println(p + "! = " + p + " * " + (p - 1) + "!");
+//			System.out.println(p + "! = " + p + " * " + (p - 1) + "!");
 			return p * f(p - 1);
 		}
 	}
